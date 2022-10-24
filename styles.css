@@ -7,6 +7,9 @@
 body {
   min-height: 100vh;
   max-width: 100vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .navigation {
@@ -34,15 +37,15 @@ body {
 .containerdescription {
   height: 200px;
   width: 100vw;
-  background-color:white;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .descriptif {
- font-size: 30px; 
- font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .onglet {
@@ -62,6 +65,7 @@ body {
 }
 
 header {
+ 
   height: 800px;
   width: 100vw;
   display: flex;
@@ -71,7 +75,7 @@ header {
 }
 
 .boxheider {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url(./img/bg.jpg);
   background-repeat: no-repeat;
@@ -103,7 +107,7 @@ h2,
 }
 
 #text2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 #text3 {
@@ -113,4 +117,63 @@ h2,
   width: 249px;
   border: solid 1px;
   padding: 15px;
+}
+
+.containeursectiongaming {
+  padding: 99px;
+  background-color: rgba(0, 0, 0, 0.885);
+  width: 100vw;
+  height: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectiongamin {
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+#logogbs {
+  width: 400px;
+  height: 300px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.paragraph {
+  color: azure;
+  font-size: 25px;
+  width: 431px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  color: azure;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn1 {
+  border: solid 1px white;
+  width: 311px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 62px;
 }

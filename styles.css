@@ -65,7 +65,6 @@ body {
 }
 
 header {
- 
   height: 1015px;
   width: 100vw;
   display: flex;
@@ -176,4 +175,52 @@ h2 {
   flex-wrap: nowrap;
   justify-content: center;
   margin-left: 62px;
+}
+
+.containeurnewscampus {
+  padding: 99px;
+  background-color:#eed9d9;
+  width: 100vw;
+  height: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newstitre {
+display: flex;
+
+}
+
+.paragraph1 {
+  color: black;
+  font-size: 25px;
+  width: 431px;
+  text-align: left;
+}
+
+.btn2 {
+ 
+  width: 311px;
+  height: 55px;
+  text-align: left;
+}
+
+.btn21 {
+  color: black;
+}
+
+#titrenew,.newstitre1  {
+  font-size: 30px;
+    font-weight: bold;
+  color: black;
+}
+
+.newstitre1 {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ align-items: center;
+
 }

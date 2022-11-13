@@ -177,27 +177,26 @@ h2 {
   margin-left: 62px;
 }
 
-#titrenew,.newstitre1  {
+#titrenew,
+.newstitre1 {
   font-size: 30px;
-    font-weight: bold;
+  font-weight: bold;
   color: black;
 }
 
 .newstitre1 {
- 
-  padding-top:100px;
+  padding-top: 100px;
   background-color: #eed9d9;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
- align-items: center;
-
+  align-items: center;
 }
 
 .containeurnewscampus {
   padding: 50px;
-  background-color:#eed9d9;
+  background-color: #eed9d9;
   width: 100vw;
   height: 500;
   display: flex;
@@ -211,10 +210,8 @@ h2 {
   font-size: 28px;
 }
 
-
 .newstitre {
-display: flex;
-
+  display: flex;
 }
 
 .paragraph1 {
@@ -225,7 +222,6 @@ display: flex;
 }
 
 .btn2 {
- 
   width: 311px;
   height: 55px;
   text-align: left;
@@ -234,4 +230,58 @@ display: flex;
 .btn21 {
   color: black;
 }
+
+.info,
+.boxinfo {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 133px;
+}
+
+#logogaminginfo {
+  height: 261px;
+}
+
+.titlefooter {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.subbox {
+  width: 300px;
+}
+
+.paragraphinfo {
+  line-height: 2em;
+}
+
+.imagepress {
+  width: 100px;
+  margin-right: 80px;
+}
+
+.pub {
+  display: flex;
+  height: 100px;
+  margin-left: 344px
+
+  
+}
+
+#boximag {
+  margin-right: 490px;
+  margin-left: 150px;
+  
+}
+
+
 
